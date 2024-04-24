@@ -24,48 +24,41 @@ This project involved setting up a Windows VM, installing and configuring IIS, P
 
 ## Detailed Deployment and Configuration Steps
 
-### Step 1: VM Setup in Azure
-- **Create Resource Group**:
-  - Instructions on how to create and configure Azure resource groups. 
-  - *Screenshot: Resource group setup.*
 
-- **Create and Configure VM**:
-  - Steps to set up a Windows 10 VM with appropriate settings for hosting a web application.
-  - *Screenshot: VM creation and configuration.*
+### Step 1: VM Setup in Azure
+- **Create Resource Group and VM**:
+  - In the Azure portal, create a new resource group and then set up a Windows 10 VM with necessary specifications (2-4 CPUs, 8 GB RAM).
+  - **Screenshot**: Capture the Azure portal screen showing the VM specifications and resource group details.
 
 ### Step 2: Software Installation
 - **Install IIS with Required Features**:
-  - Detailed instructions on installing Internet Information Services and enabling features like CGI and Application Development Features.
-  - *Screenshot: IIS installation and feature setup.*
+  - Install IIS via the Server Manager, adding features like CGI and Application Development Features necessary for running PHP applications.
+  - **Screenshot**: Display the IIS dashboard with the installed features highlighted.
 
 - **Install and Configure PHP**:
-  - Steps for installing PHP and integrating it with IIS using PHP Manager.
-  - *Screenshot: PHP installation and configuration.*
+  - Download and configure PHP Manager for IIS and set up PHP to work within the IIS environment.
+  - **Screenshot**: Show the PHP version and configuration settings in the IIS PHP Manager.
 
 - **Install MySQL**:
-  - Instructions for installing MySQL and setting up the initial database for osTicket.
-  - *Screenshot: MySQL installation.*
+  - Install MySQL Server and perform initial setup, including configuring a root password and setting up the osTicket database.
+  - **Screenshot**: Capture the MySQL installation summary and initial setup screens.
 
 ### Step 3: osTicket Installation
 - **Deploy osTicket Files**:
-  - Guide on how to download, extract, and deploy osTicket files to the web directory.
-  - *Screenshot: osTicket file deployment.*
+  - Download osTicket from the provided link, extract the files, and place them in the IIS root directory configured for web access.
+  - **Screenshot**: Show the osTicket files in their directory on the server.
 
 - **Configure osTicket**:
-  - Steps to finalize the configuration of osTicket through its setup wizard.
-  - *Screenshot: osTicket configuration.*
+  - Run the osTicket installer through a web browser by accessing the VM's public IP, configure system settings, and connect it to the MySQL database.
+  - **Screenshot**: Capture the final screen of the osTicket setup wizard indicating successful installation.
 
-### Step 4: Post-Installation Configuration and Testing
-- **Configure Email and Operational Settings**:
-  - Set up email functionalities and other operational settings within osTicket.
-  - *Screenshot: Email settings configuration.*
-
-- **Test Ticketing Functionality**:
-  - Steps to create test tickets and ensure all functionalities are working as expected.
-  - *Screenshot: Testing ticket creation.*
+### Step 4: Testing
+- **Functionality Testing**:
+  - Test creating a ticket, assigning a ticket, and responding to a ticket within the osTicket system to ensure all functions are operational.
+  - **Screenshot**: Display a test ticket fully created and visible in the osTicket dashboard.
 
 ## Conclusion
-Deploying osTicket on Azure provides a scalable and robust platform for managing customer support needs. This setup ensures that all components are configured for optimal performance in a cloud environment, demonstrating an effective integration of a ticketing system within a modern IT infrastructure.
+Setting up osTicket on Azure demonstrates an effective integration of a ticket management system in a cloud environment, offering scalable customer support solutions.
 
 ## Connect with Me
-- *LinkedIn:* [https://www.linkedin.com/in/chazz-c-382a75122/](#)
+- **LinkedIn:** [Chazz C](https://www.linkedin.com/in/chazz-c-382a75122/)
