@@ -86,5 +86,5 @@ This project involves setting up and configuring osTicket, an open-source suppor
 ## Conclusion
 Setting up osTicket on Azure demonstrates an effective integration of a ticket management system in a cloud environment, offering scalable customer support solutions.
 
-## Connect with Me
+## Connect with Me:
 - **LinkedIn:** [Chazz Conino](https://www.linkedin.com/in/chazz-c-382a75122/)
